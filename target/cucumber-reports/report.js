@@ -1,0 +1,248 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resource/Features/Login.feature");
+formatter.feature({
+  "name": "Login",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Successful Login with Valid Credentials",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "name": "User Launch Chrome browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_launch_chrome_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_opens_url(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Login",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.click_on_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.page_title_should_be(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click on Log out link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_click_on_log_out_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Page Title should be \"Your store. Login\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.page_title_should_be(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.close_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Successful Login with Valid Credentials DDT",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User Launch Chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "User enters Email as \"\u003cemail\u003e\" and Password as \"\u003cpassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Click on Login",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "User click on Log out link",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Page Title should be \"Your store. Login\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "email",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "admin@yourstore.com",
+        "admin"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Successful Login with Valid Credentials DDT",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "User Launch Chrome browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_launch_chrome_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_opens_url(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Login",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.click_on_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.page_title_should_be(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click on Log out link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.user_click_on_log_out_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Page Title should be \"Your store. Login\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.page_title_should_be(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "close browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.StepDef.close_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+});
